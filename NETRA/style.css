@@ -1,0 +1,419 @@
+/* Genel ayarlar */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Arka plan video */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Sayfa içeriği */
+.content {
+  position: absolute;
+  top: 70%; /* Sayfanın tam ortasında */
+  left: 50%; /* Sayfanın tam ortasında */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalama */
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+
+/* Yuvarlak logo alanı - sol üst köşe */
+.logo-badge {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.logo-badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.logo-badge img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.brand-name {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+/* Ürünler Alanı */
+/* Genel Ayarlar */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h2 {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Header */
+header {
+  background-color: #1e90ff;
+  padding: 20px 0;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Satın Alma Sayfası */
+/* Genel Ayarlar */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2c2f36; /* Koyu arka plan */
+  color: #f5f5f5; /* Açık yazı rengi */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h2 {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* Header */
+header {
+  background-color: #1e90ff;
+  padding: 20px 0;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Ürün Listesi */
+/* Genel Stil Ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Ürün Listesi */
+/* Genel Stil Ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Ürün Listesi */
+.product-list {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  height: 400px; /* Yüksekliği sınırladık */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-img {
+  width: 100%;
+  height: 200px; /* Görselin yüksekliğini sınırladık */
+  object-fit: cover; /* Görselin kutuya sığmasını sağladık */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #00b894; /* Şık yeşil renk */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: auto; /* Butonun aşağıda olmasını sağladık */
+}
+
+.btn:hover {
+  background-color: #098f6a; /* Hover efekti */
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.back-button-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.back-button {
+  text-decoration: none;
+  background-color: #444;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #222;
+}
+.payment-form-section {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+  color: #fff;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.payment-form input,
+.payment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.payment-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.card-details {
+  display: flex;
+  gap: 16px;
+}
+
+.card-details div {
+  flex: 1;
+}
+
+

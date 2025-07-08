@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ödeme - Netra Akıllı Cüzdan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Arka Plan Video -->
+<video autoplay muted loop id="bg-video">
+    <source src="NETRA.mp4" type="video/mp4">
+    Tarayıcınız video etiketini desteklemiyor.
+  </video>
+  
+  <header> 
+      <h1>Netra Ödeme Sayfası</h1>
+    </div>
+  </header>
+
+  <section class="payment-form-section">
+    <form class="payment-form">
+      <label>Ad Soyad</label>
+      <input type="text" placeholder="Adınız Soyadınız" required>
+
+      <label>E-posta</label>
+      <input type="email" placeholder="eposta@ornek.com" required>
+
+      <label>Adres</label>
+      <textarea placeholder="Teslimat adresiniz" required></textarea>
+
+      <label>Kart Numarası</label>
+      <input type="text" placeholder="1234 5678 9012 3456" maxlength="19" required>
+
+      <div class="card-details">
+        <div>
+          <label>Son Kullanma</label>
+          <input type="text" placeholder="AA/YY" maxlength="5" required>
+        </div>
+        <div>
+          <label>CVV</label>
+          <input type="text" placeholder="123" maxlength="3" required>
+        </div>
+      </div>
+      <div class="payment-buttons">
+        <button class="btn complete-btn">Ödemeyi Tamamla</button>
+        <a href="index.html" class="btn back-btn">Geri Dön</a>
+      </div>
+      
+     
+    </form>
+  </section>
+  
+  <div class="back-button-container">
+    <a href="satinalma.html" class="back-button">← Satın Almaya Dön</a>
+  </div>
+
+</body>
+</html>
+
